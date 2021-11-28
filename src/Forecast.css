@@ -1,1 +1,11 @@
 .WeatherForecast{text-align:center;}
+
+.ForecastPreview{margin:40px;
+margin-top:20px;}
+
+.Forecast .forecast-temperature-min{margin-left:20px;
+opacity:0,4;
+color:rgb(223, 217, 217);}
+
+.forecast-time{color:yellow;}
+

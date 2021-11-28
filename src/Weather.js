@@ -5,6 +5,7 @@ import Information from "./Information";
 import Forecast from "./Forecast";
 
 
+
 export default function Weather(props){
     const [weatherData, setWeatherData]=useState({ready:false});
     const [city, setCity]=useState(props.defaultCity);
@@ -53,6 +54,7 @@ export default function Weather(props){
                 </form>
                <Information data={weatherData}/>
                <Forecast coordinates={weatherData.coordinates}/>
+               
 
                <footer>
     This project was coded by Andrea Hitchin and is

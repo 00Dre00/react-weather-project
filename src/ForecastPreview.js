@@ -10,11 +10,13 @@ export default function ForecastPreview(props){
 
         function maxTemperature(){
             let temperature=Math.round(props.data.temp.max);
-            return`${temperature}&#176;`;}
+            return`${temperature}°C`;
+        }
 
             function minTemperature(){
                 let temperature=Math.round(props.data.temp.min);
-                return`${temperature}&#176;`;}
+                return`${temperature}°C`;
+            }
 
                 return(
                     <div className="ForecastPreview">

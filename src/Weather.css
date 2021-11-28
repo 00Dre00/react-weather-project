@@ -3,7 +3,7 @@
     padding:18px;
     margin:30px auto;
     border-radius:4px;
-     background: linear-gradient(70deg, rgb(149, 67, 204), rgb(32, 136, 221));
+     background: linear-gradient(40deg, rgb(192, 97, 255), rgb(0, 94, 172));
     }
     
     .Weather form{margin-bottom:24px;}
@@ -31,11 +31,13 @@
     
     .Weather ul{margin:0;
     padding:0;}
+
+    .Weather li{margin-bottom:20px;}
     
     .Weather li{font-size:18px;
     font-weight:100;
     line-height:20px;
-    color:rgb(255, 255, 0);
+    color:orange;
     list-style:none;}
     
     
